@@ -98,13 +98,13 @@ Aşağıdaki servislere kaydolup API anahtarlarını alın:1. **HeyGen** - [app.
 
 1. **Projeyi klonlayın:**git clone <repository-url>
 
-cd AvatarApp
+cd Soulingo
 
 ```bash```
 
 git clone <repository-url>
 
-cd AvatarApp2. **Bağımlılıkları yükleyin:**
+cd Soulingo. **Bağımlılıkları yükleyin:**
 
 ``````bash
 
@@ -186,7 +186,7 @@ npm run android
 
 npm run ios```
 
-AvatarApp/
+Soulingo/
 
 # Web (sınırlı özellikler)├── src/
 
@@ -202,7 +202,7 @@ npm run web│   ├── api/
 
 ```│   │   ├── TextArea.tsx             # Ders metni gösterimi
 
-AvatarApp/│   │   └── VoiceRecorder.tsx        # Ses kaydedici
+Soulingo/│   │   └── VoiceRecorder.tsx        # Ses kaydedici
 
 ├── src/│   ├── screens/
 
@@ -494,7 +494,7 @@ adb shell pm grant host.exp.exponent android.permission.RECORD_AUDIO
 
 "I love playing music and singing songs. My favorite hobby is learning new languages. What do you like to do for fun?"
 
-# iOS için - Settings > AvatarApp > Microphone > Allow
+# iOS için - Settings > Soulingo > Microphone > Allow
 
 ## 🐛 Sorun Giderme```
 
@@ -544,7 +544,7 @@ adb shell pm grant host.exp.exponent android.permission.RECORD_AUDIO- `expo-file
 
 - `expo-speech` (^14.0.7) - TTS (kullanılmıyor şu an)
 
-# iOS için - Settings > AvatarApp > Microphone > Allow
+# iOS için - Settings > Soulingo > Microphone > Allow
 
 ```### Navigation & UI
 
@@ -737,3 +737,4 @@ export const lessons: Lesson[] = [2. Feature branch oluşturun (`git checkout -b
 - ✅ Ses dosyası sıkıştırma (WAV → 24kHz mono)**Not:** Bu uygulama eğitim amaçlıdır. Production kullanımı için uygun backend altyapısı ve güvenlik önlemleri gereklidir.
 
 - ✅ Lazy loading (bileşenler sadece gerektiğinde yüklenir)#
+
